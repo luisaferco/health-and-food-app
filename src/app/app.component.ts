@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { DiaryComponent } from './components/diary/diary.component';
+import { ProductsComponent } from './components/products/products.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [FormsModule, DiaryComponent],
+  imports: [FormsModule, ProductsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

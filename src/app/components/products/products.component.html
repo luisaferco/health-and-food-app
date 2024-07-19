@@ -1,0 +1,27 @@
+<h1>Products</h1>
+<mat-list role="list" *ngFor="let product of products">
+    <mat-list-item role="title">{{product.title}}</mat-list-item>
+    <mat-list-item role="title">{{product.description}}</mat-list-item>
+    
+      <mat-accordion>
+      <mat-expansion-panel hideToggle>
+
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            DETAILS
+          </mat-panel-title>
+          <mat-panel-description>
+            See more details of your product
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+           
+            <mat-grid-list cols="3" rowHeight="3:1">
+              <mat-grid-tile *ngFor="let image of product.images">
+                <img mat-card-image src={{image}} alt="Photo of product"> 
+              </mat-grid-tile>
+            </mat-grid-list>    
+              
+      </mat-expansion-panel>
+      </mat-accordion>
+   
+</mat-list>

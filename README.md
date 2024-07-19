@@ -14,6 +14,9 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+Useful resources to look the app through [Angular Material](https://material.angular.io/guide/getting-started)
+Follow the instructions to install angular material to use any components that going to help you to build the application
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).

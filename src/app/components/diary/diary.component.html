@@ -1,2 +1,8 @@
 <h1>{{ title }} </h1>
-<p> $ {{diary.items}}</p>
+<mat-list role="list" *ngFor="let item of diary.items">
+    <mat-list-item role="diaryItem">{{item.type}}</mat-list-item>
+    <mat-list-item role="dateItem">{{item.date}}</mat-list-item>
+    <mat-list-item role="mealItem">{{item.diary_meal}}</mat-list-item>
+  </mat-list>
+
+

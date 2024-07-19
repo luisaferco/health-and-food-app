@@ -1,0 +1,7 @@
+.fondo{background-color: rgb(20, 163, 189);}
+.example-card {
+    max-width: 500px;
+  }
+mat-grid-tile {
+  background: lightblue;
+}
